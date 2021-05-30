@@ -1,0 +1,48 @@
+const Discord = require("discord.js");
+
+const client = new Discord.Client();
+
+const prefix = ".";
+
+client.once("ready", () => {
+    console.log("Veckovo bot je online!")
+});
+
+client.on("message", message =>{
+    if(!message.content.startsWith(prefix) || message.author.bot) return;
+
+    const args = message.content.slice(prefix.length).split(/ +/);
+    const command = args.shift().toLowerCase();
+
+    if(command === "ping"){
+        message.channel.send("pong!");
+    } else if (command === "twitch"){
+        message.channel.send("https://twitch.tv/Vojciech07/");
+    } else if (command === "Twitch"){
+        message.channel.send("https://twitch.tv/Vojciech07/");
+    } else if (command === "twitch"){
+        message.channel.send("https://twitch.tv/Vojciech07/");
+    } else if (command === "twitter"){
+        message.channel.send("https://twitter.com/VojtaKubicek07/");
+    } else if (command === "Twitter"){
+        message.channel.send("https://twitter.com/VojtaKubicek07/");
+    } else if (command === 'Cs'){
+        message.channel.send('Ahoj!');
+    } else if (command === 'cs'){
+        message.channel.send('Ahoj!');
+    } else if (command === 'Ahoj'){
+        message.channel.send('Ahoj!');
+    } else if (command === 'ahoj'){
+        message.channel.send('Ahoj!');
+    } else if (command === 'gm'){
+        message.channel.send('Dobré ráno!');
+    } else if (command === 'Gm'){
+        message.channel.send('Dobré ráno!');
+    } else if (command === 'gn'){
+        message.channel.send('Dobrou noc!');
+    } else if (command === 'Gn'){
+        message.channel.send('Dobrou noc!');
+    }
+});
+
+client.login("TOKEN");
