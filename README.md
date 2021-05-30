@@ -1,0 +1,3 @@
+- 👋 Hi, I’m @V257K
+- 👀 I’m interested in javasript (DiscordBot, html
+- 🌱 I’m currently learning javascript
