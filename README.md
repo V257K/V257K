@@ -1,3 +1,3 @@
-- 👋 Hi, I’m @V257K
-- 👀 I’m interested in javasript (DiscordBot), html
-- 🌱 I’m currently learning javascript
+- 👋 Cs, jsem @V257K
+- 👀 Zajímám se o javasript (DiscordBot), html
+- 🌱 Momentálně se učím javascript
