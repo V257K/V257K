@@ -1,3 +1,3 @@
-- 👋 Cs, jsem @V257K
-- 👀 Zajímám se o javasript (DiscordBot), html
+- 👋 Yo, jsem Veckkko
+- 👀 Zajímám se o javasript (DiscordBot), python
 - 🌱 Momentálně se učím javascript
